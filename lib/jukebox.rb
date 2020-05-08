@@ -49,13 +49,10 @@ def run(songs)
     case reply
       when "help"
         help
-        run
       when "list"
         list
-        run
       when "play"
         play
-        run
     else
       puts "Invalid. Type 'help' for list of commands."
       run
