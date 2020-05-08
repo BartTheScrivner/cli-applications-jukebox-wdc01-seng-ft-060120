@@ -55,7 +55,6 @@ def run(songs)
         play
     else
       puts "Invalid. Type 'help' for list of commands."
-      run
     end
   end
   exit_jukebox
