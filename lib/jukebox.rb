@@ -53,6 +53,8 @@ def run(songs)
         list
       when "play"
         play
+      when "exit"
+        break
     else
       puts "Invalid. Type 'help' for list of commands."
     end
