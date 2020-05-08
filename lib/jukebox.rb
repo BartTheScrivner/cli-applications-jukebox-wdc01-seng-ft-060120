@@ -51,10 +51,10 @@ def run(songs)
         help
         reply = gets.strip
       when "list"
-        list
+        list(songs)
         reply = gets.strip
       when "play"
-        play
+        play(songs)
         reply = gets.strip
       when "exit"
         break
